@@ -92,3 +92,9 @@ h5,
 h6 {
   overflow-wrap: break-word;
 }
+
+/* General */
+body {
+  background-color: var(--clr-neutral-100);
+  color: var(--clr-primary-500);
+}
