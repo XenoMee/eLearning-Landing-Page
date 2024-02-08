@@ -106,9 +106,9 @@ body {
 }
 
 /* Typography */
-/* .intro-title {
+.intro-title {
   font-size: var(--fs-800);
-} */
+}
 
 /* Utility classes */
 .heading-dark {
