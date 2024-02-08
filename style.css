@@ -15,4 +15,15 @@
   --clr-accent-1: hsl(322, 87%, 55%);
   --clr-accent-2: hsl(13, 100%, 64%);
   --clr-accent-3: hsl(237, 100%, 64%);
+
+  /* Gradient */
+  --gradient-to-transparent: linear-gradient(
+    var(--clr-accent-2),
+    var(--clr-accent-1)
+  );
+
+  --gradient-secondary: linear-gradient(
+    var(--clr-accent-3),
+    var(--clr-accent-1)
+  );
 }
