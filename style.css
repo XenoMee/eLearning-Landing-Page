@@ -101,4 +101,6 @@ body {
   font-weight: var(--fw-medium);
   font-size: var(--fs-300);
   line-height: 1.6;
+
+  min-height: 100svh;
 }
