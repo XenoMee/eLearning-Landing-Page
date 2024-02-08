@@ -110,6 +110,10 @@ body {
   font-size: var(--fs-800);
 }
 
+.course-headline-title {
+  font-size: var(--fs-600);
+}
+
 /* Utility classes */
 .heading-dark {
   color: var(--clr-primary-800);
