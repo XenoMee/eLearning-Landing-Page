@@ -29,4 +29,9 @@
 
   /* Font family */
   --font-family-body: "Plus Jakarta Sans", sans-serif;
+
+  /* Font weight */
+  --fw-medium: 500;
+  --fw-bold: 700;
+  --fw-black: 800;
 }
