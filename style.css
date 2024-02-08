@@ -26,4 +26,7 @@
     var(--clr-accent-3),
     var(--clr-accent-1)
   );
+
+  /* Font family */
+  --font-family-body: "Plus Jakarta Sans", sans-serif;
 }
