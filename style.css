@@ -104,3 +104,10 @@ body {
 
   min-height: 100svh;
 }
+
+/* Typography */
+
+/* Utility classes */
+.heading-dark {
+  color: var(--clr-primary-800);
+}
