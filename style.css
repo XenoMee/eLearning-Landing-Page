@@ -128,7 +128,10 @@ body {
 }
 
 /* Layout */
-
+/* .header,
+.footer {
+  justify-content: space-between;
+} */
 /* Utility classes */
 .heading-dark {
   color: var(--clr-primary-800);
