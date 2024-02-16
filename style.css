@@ -160,7 +160,7 @@ body {
   background-color: var(--clr-primary-800);
 }
 
-.intro {
+.intro-header {
   justify-items: start;
 }
 
