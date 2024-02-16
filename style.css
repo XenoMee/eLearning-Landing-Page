@@ -127,6 +127,10 @@ body {
   font-size: var(--fs-400);
 }
 
+.course-item {
+  background-color: var(--clr-neutral-100);
+}
+
 /* Layout */
 
 .header,
