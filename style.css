@@ -129,6 +129,7 @@ body {
 
 .course-item {
   background-color: var(--clr-neutral-100);
+  box-shadow: 0 0 0 0.5rem rgba(0, 0, 0, 0.3);
 }
 
 /* Layout */
