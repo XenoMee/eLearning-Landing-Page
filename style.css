@@ -146,6 +146,10 @@ body {
   background-color: var(--clr-primary-800);
 }
 
+.intro {
+  justify-items: start;
+}
+
 .intro-button {
   background-image: var(--gradient-primary);
 }
