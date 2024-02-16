@@ -127,13 +127,7 @@ body {
   font-size: var(--fs-400);
 }
 
-.course-item {
-  background-color: var(--clr-neutral-100);
-  box-shadow: 0 0 0 0.5rem rgba(0, 0, 0, 0.3);
-}
-
 /* Layout */
-
 .header,
 .footer {
   justify-content: space-between;
@@ -153,6 +147,16 @@ body {
 
 .intro-button {
   background-image: var(--gradient-primary);
+}
+
+.headline-item {
+  /* padding: ; */
+  color: var(--clr-neutral-100);
+}
+
+.course-item {
+  background-color: var(--clr-neutral-100);
+  box-shadow: 0 0 0 0.5rem rgba(0, 0, 0, 0.3);
 }
 
 .course-button {
