@@ -137,6 +137,7 @@ body {
   padding: 0.8em 2em;
   border: none;
   border-radius: 2rem;
+  text-decoration: none;
   font-size: var(--fs-300);
   color: var(--clr-neutral-100);
 }
