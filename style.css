@@ -90,6 +90,12 @@ h6 {
   overflow-wrap: break-word;
 }
 
+/* Reduce line-height for large text */
+h1,
+h2 {
+  line-height: 1.2;
+}
+
 /* General */
 body {
   background-image: linear-gradient(
