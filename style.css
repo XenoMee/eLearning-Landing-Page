@@ -42,7 +42,7 @@
   --fs-900: 3.5rem;
 
   /* Padding */
-  --element-padding: 0.5rem;
+  --element-padding: 1rem;
 }
 
 /*
@@ -139,6 +139,7 @@ body {
 /* Layout */
 .header,
 .footer {
+  /* padding: var(--element-padding); */
   justify-content: space-between;
 }
 
