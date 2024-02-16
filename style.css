@@ -17,10 +17,7 @@
   --clr-accent-3: hsl(237, 100%, 64%);
 
   /* Gradient */
-  --gradient-to-transparent: linear-gradient(
-    var(--clr-accent-2),
-    var(--clr-accent-1)
-  );
+  --gradient-primary: linear-gradient(var(--clr-accent-2), var(--clr-accent-1));
 
   --gradient-secondary: linear-gradient(
     var(--clr-accent-3),
@@ -143,6 +140,10 @@ body {
 
 .header-button {
   background-color: var(--clr-primary-800);
+}
+
+.intro-button {
+  background-image: var(--gradient-primary);
 }
 
 .footer-button {
