@@ -114,6 +114,7 @@ body {
 /* Typography */
 .intro-title {
   font-size: var(--fs-800);
+  /* font-weight: var(--fw-black); */
 }
 
 .course-headline-title {
@@ -191,6 +192,11 @@ body {
   justify-items: start;
   border-radius: 0.5rem;
   box-shadow: 0 0 1rem 0.1rem rgba(0, 0, 0, 0.2);
+}
+
+.course-title {
+  color: var(--clr-primary-800);
+  font-weight: var(--fw-black);
 }
 
 .course-button {
