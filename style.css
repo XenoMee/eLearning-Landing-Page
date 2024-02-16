@@ -146,6 +146,11 @@ body {
   background-image: var(--gradient-primary);
 }
 
+.course-button {
+  background-color: transparent;
+  color: var(--clr-primary-600);
+}
+
 .footer-button {
   background-image: var(--gradient-secondary);
 }
