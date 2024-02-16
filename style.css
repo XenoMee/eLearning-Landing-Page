@@ -152,6 +152,7 @@ body {
 .headline-item {
   /* padding: ; */
   color: var(--clr-neutral-100);
+  background-image: var(--gradient-primary);
 }
 
 .course-item {
