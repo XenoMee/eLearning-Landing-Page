@@ -187,6 +187,7 @@ body {
 .course-item {
   padding: var(--_item-padding);
   background-color: var(--clr-neutral-100);
+  justify-items: start;
 }
 
 .course-item:not(:first-of-type) {
