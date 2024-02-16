@@ -136,8 +136,8 @@ body {
 .btn {
   /* padding: 0.8em 2em; */
   border: none;
-  /* border-radius: 2rem;
-  font-size: var(--fs-300); */
+  /* border-radius: 2rem; */
+  font-size: var(--fs-300);
 }
 /* Utility classes */
 .heading-dark {
