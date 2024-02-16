@@ -172,7 +172,7 @@ body {
 }
 
 .course-list {
-  --_item-padding: 2rem 1rem;
+  --_item-padding: 2rem 1.5rem;
 
   padding: 0;
   list-style: none;
@@ -197,6 +197,7 @@ body {
 .course-button {
   background-color: transparent;
   color: var(--clr-primary-600);
+  padding: 0;
 }
 
 .footer {
