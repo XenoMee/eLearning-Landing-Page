@@ -212,7 +212,7 @@ body {
   background-image: var(--gradient-primary);
   font-size: 1.5rem;
   color: var(--clr-neutral-100);
-  /* padding: 1rem; */
+  padding: 1rem;
 }
 
 .footer {
