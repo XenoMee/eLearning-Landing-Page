@@ -101,10 +101,7 @@ h2 {
 
 /* General */
 body {
-  background-image: linear-gradient(
-    var(--clr-neutral-100),
-    var(--clr-primary-500)
-  );
+  background-color: var(--clr-neutral-100);
   color: var(--clr-primary-500);
   font-family: var(--font-family-body);
   font-weight: var(--fw-medium);
@@ -141,6 +138,10 @@ body {
 .footer {
   padding: var(--element-padding);
   justify-content: space-between;
+}
+
+.main-section {
+  padding: var(--element-padding);
 }
 
 .btn {
@@ -185,7 +186,7 @@ body {
 .course-item {
   padding: var(--_item-padding);
   background-color: var(--clr-neutral-100);
-  box-shadow: 0 0 0 0.5rem rgba(0, 0, 0, 0.3);
+  /* box-shadow: 0 0 0 0.5rem rgba(0, 0, 0, 0.3); */
 }
 
 .course-button {
