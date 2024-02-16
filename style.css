@@ -209,6 +209,7 @@ body {
 
 .course-icon {
   position: absolute;
+  background-image: var(--gradient-primary);
 }
 
 .footer {
