@@ -252,6 +252,10 @@ body {
 }
 
 @media (min-width: 650px) {
+  :root {
+    --element-padding: 2.5rem;
+  }
+
   .intro,
   .course-list {
     grid-template-columns: 1fr 1fr;
