@@ -144,6 +144,10 @@ body {
 .header-button {
   background-color: var(--clr-primary-800);
 }
+
+.footer-button {
+  background-image: var(--gradient-secondary);
+}
 /* Utility classes */
 .heading-dark {
   color: var(--clr-primary-800);
