@@ -193,6 +193,10 @@ body {
   color: var(--clr-primary-600);
 }
 
+.footer {
+  background-color: var(--clr-primary-800);
+}
+
 .footer-button {
   background-image: var(--gradient-secondary);
 }
