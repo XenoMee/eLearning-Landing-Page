@@ -149,6 +149,11 @@ body {
   background-image: var(--gradient-primary);
 }
 
+.course-list {
+  padding: 0;
+  list-style: none;
+}
+
 .headline-item {
   /* padding: ; */
   color: var(--clr-neutral-100);
