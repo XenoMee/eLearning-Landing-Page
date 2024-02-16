@@ -160,7 +160,7 @@ body {
 }
 
 .course-list {
-  --_item-padding: 1rem 2rem;
+  --_item-padding: 2rem 1rem;
 
   padding: 0;
   list-style: none;
