@@ -138,6 +138,7 @@ body {
   border: none;
   border-radius: 2rem;
   font-size: var(--fs-300);
+  color: var(--clr-neutral-100);
 }
 /* Utility classes */
 .heading-dark {
