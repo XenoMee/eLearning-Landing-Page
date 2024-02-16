@@ -186,7 +186,7 @@ body {
 .course-item {
   padding: var(--_item-padding);
   background-color: var(--clr-neutral-100);
-  box-shadow: 0 0 0 0.1rem rgba(0, 0, 0, 1);
+  box-shadow: 0 0 1rem 0.1rem rgba(0, 0, 0, 0.2);
 }
 
 .course-button {
