@@ -264,4 +264,9 @@ body {
   .intro {
     align-items: center;
   }
+
+  .headline-item,
+  .course-item {
+    padding-top: 3rem;
+  }
 }
