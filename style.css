@@ -157,12 +157,13 @@ body {
 }
 
 .headline-item {
-  /* padding: ; */
+  padding: var(--_item-padding);
   color: var(--clr-neutral-100);
   background-image: var(--gradient-primary);
 }
 
 .course-item {
+  padding: var(--_item-padding);
   background-color: var(--clr-neutral-100);
   box-shadow: 0 0 0 0.5rem rgba(0, 0, 0, 0.3);
 }
