@@ -251,9 +251,13 @@ body {
   gap: 1.5rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 650px) {
   .intro,
   .course-list {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .intro {
+    align-items: center;
   }
 }
