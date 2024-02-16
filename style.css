@@ -210,10 +210,11 @@ body {
 .course-icon {
   position: absolute;
   background-image: var(--gradient-primary);
-  font-size: 1.5rem;
+  font-size: var(--fs-400);
   color: var(--clr-neutral-100);
-  padding: 1rem;
+  padding: 0.8rem 0.95rem;
   border-radius: 50%;
+  transform: translate(1rem, -1.5rem);
 }
 
 .footer {
