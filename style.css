@@ -182,15 +182,14 @@ body {
   padding: var(--_item-padding);
   color: var(--clr-neutral-100);
   background-image: var(--gradient-primary);
+  border-radius: 0.5rem;
 }
 
 .course-item {
   padding: var(--_item-padding);
   background-color: var(--clr-neutral-100);
   justify-items: start;
-}
-
-.course-item:not(:first-of-type) {
+  border-radius: 0.5rem;
   box-shadow: 0 0 1rem 0.1rem rgba(0, 0, 0, 0.2);
 }
 
