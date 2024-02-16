@@ -216,3 +216,7 @@ body {
   display: grid;
   gap: 1rem;
 }
+
+.grid-flow[data-spacing="large"] {
+  gap: 2.5rem;
+}
