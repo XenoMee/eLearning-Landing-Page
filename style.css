@@ -40,6 +40,9 @@
   --fs-700: 2rem;
   --fs-800: 2.5rem;
   --fs-900: 3.5rem;
+
+  /* Padding */
+  --element-padding: 0.5rem;
 }
 
 /*
