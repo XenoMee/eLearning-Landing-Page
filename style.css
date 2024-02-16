@@ -246,3 +246,7 @@ body {
 .grid-flow[data-spacing="large"] {
   gap: 2.5rem;
 }
+
+.grid-flow[data-spacing="medium"] {
+  gap: 1.5rem;
+}
