@@ -140,6 +140,10 @@ body {
   font-size: var(--fs-300);
   color: var(--clr-neutral-100);
 }
+
+.header-button {
+  background-color: var(--clr-primary-800);
+}
 /* Utility classes */
 .heading-dark {
   color: var(--clr-primary-800);
