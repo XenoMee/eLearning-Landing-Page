@@ -139,7 +139,7 @@ body {
 /* Layout */
 .header,
 .footer {
-  /* padding: var(--element-padding); */
+  padding: var(--element-padding);
   justify-content: space-between;
 }
 
