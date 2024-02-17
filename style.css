@@ -349,6 +349,6 @@ body {
   .course-list {
     max-width: 75rem;
     margin: 0 auto;
-    /* min-width: 20rem; */
+    min-width: 20rem;
   }
 }
