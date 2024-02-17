@@ -144,7 +144,7 @@ body {
 }
 
 .main-section {
-  max-width: 76rem;
+  max-width: 90rem;
   margin: 0 auto;
   padding: var(--element-padding);
 }
@@ -280,7 +280,7 @@ body {
   }
 
   .hero-image > img {
-    transform: translate(3.5rem, -1.5rem);
+    transform: translate(20%, -5%);
   }
 
   .headline-item,
@@ -300,5 +300,18 @@ body {
 
   .intro-title {
     font-size: var(--fs-900);
+  }
+
+  .hero-image {
+    transform: scale(2);
+  }
+
+  .hero-image > img {
+    transform: translate(20%, -3%);
+  }
+
+  .course-list {
+    max-width: 62rem;
+    margin: 0 auto;
   }
 }
