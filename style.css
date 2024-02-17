@@ -179,6 +179,7 @@ body {
 
   padding: 0;
   list-style: none;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
 }
 
 .headline-item {
@@ -264,10 +265,6 @@ body {
   .intro {
     grid-template-columns: 1fr 0.7fr;
     gap: 0;
-  }
-
-  .course-list {
-    grid-template-columns: 1fr 1fr;
   }
 
   .intro {
