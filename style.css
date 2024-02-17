@@ -13,8 +13,11 @@
   --clr-accent-hsl-3: 237, 100%, 64%;
 
   --clr-accent-1: hsl(322, 87%, 55%);
+  --clr-accent-1-100: hsl(322, 87%, 85%);
   --clr-accent-2: hsl(13, 100%, 64%);
+  --clr-accent-2-100: hsl(13, 100%, 84%);
   --clr-accent-3: hsl(237, 100%, 64%);
+  --clr-accent-3-100: hsl(237, 100%, 84%);
 
   /* Gradient */
   --gradient-primary: linear-gradient(var(--clr-accent-2), var(--clr-accent-1));
@@ -170,6 +173,10 @@ body {
 
 .intro-button {
   background-image: var(--gradient-primary);
+}
+
+.intro-button:is(:hover, :focus) {
+  mask-image: ;
 }
 
 .hero-image {
