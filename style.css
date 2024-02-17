@@ -228,6 +228,10 @@ body {
   padding: 0;
 }
 
+.course-button:is(:hover, :focus) {
+  color: var(--clr-primary-800);
+}
+
 .course-icon {
   position: absolute;
   background-image: var(--gradient-primary);
