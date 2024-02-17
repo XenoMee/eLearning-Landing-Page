@@ -260,6 +260,10 @@ body {
   font-weight: var(--fw-black);
 }
 
+.transition-color {
+  transition: color 350ms ease-in-out;
+}
+
 .flex-group {
   display: flex;
   flex-wrap: wrap;
