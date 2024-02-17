@@ -254,7 +254,7 @@ body {
 
 @media (min-width: 660px) {
   :root {
-    --element-padding: 1.5rem 2.5rem 2.5rem 2.5rem;
+    --element-padding: 1.5rem 2.5rem;
   }
 
   .main-section {
@@ -288,3 +288,9 @@ body {
     padding-top: 3rem;
   }
 }
+
+/* @media (min-width: 1000px) {
+  :root {
+    --element-padding: 1.5rem 5rem;
+  }
+} */
