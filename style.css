@@ -253,7 +253,7 @@ body {
 
 @media (min-width: 650px) {
   :root {
-    --element-padding: 2.5rem;
+    --element-padding: 1.5rem 2.5rem 2.5rem 2.5rem;
   }
 
   .intro,
