@@ -311,7 +311,7 @@ body {
   }
 
   .hero-image {
-    transform: scale(2.2);
+    transform: scale(2);
     z-index: -1;
   }
 
@@ -343,11 +343,8 @@ body {
   }
 
   .hero-image > img {
-    transform: translate(20%, -8%);
+    transform: translate(20%, -15%);
   }
-
-  /* .course-list {
-  } */
 }
 
 @media (min-width: 1245px) {
