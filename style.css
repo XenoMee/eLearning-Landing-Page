@@ -289,8 +289,8 @@ body {
   }
 }
 
-/* @media (min-width: 1000px) {
+@media (min-width: 1000px) {
   :root {
-    --element-padding: 1.5rem 5rem;
+    --element-padding: 1.5rem 7rem;
   }
-} */
+}
