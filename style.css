@@ -343,12 +343,17 @@ body {
   }
 
   .hero-image > img {
-    transform: translate(20%, -3%);
+    transform: translate(20%, -8%);
   }
 
+  /* .course-list {
+  } */
+}
+
+@media (min-width: 1245px) {
   .course-list {
     max-width: 75rem;
     margin: 0 auto;
-    min-width: 20rem;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   }
 }
