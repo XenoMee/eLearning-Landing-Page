@@ -206,6 +206,7 @@ body {
 
 .intro-button {
   background-image: var(--gradient-primary);
+  color: var(--clr-background);
 }
 
 .intro-button:is(:hover, :focus) {
