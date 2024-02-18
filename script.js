@@ -18,6 +18,11 @@ function enableDarkMode() {
   localStorage.setItem("darkmode", "enabled");
 }
 
+function disableDarkMode() {
+  document.body.classList.remove("dark-mode");
+  localStorage.setItem("darkmode", null);
+}
+
 // darkModeToggleButton.addEventListener("click", function () {
 //   if (storagedDarkMode !== "enabled") {
 //     enableMoonIcon();
