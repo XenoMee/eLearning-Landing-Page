@@ -278,6 +278,7 @@ body {
 
 .footer-button {
   background-image: var(--gradient-secondary);
+  color: var(--clr-background);
 }
 
 .footer-button:is(:hover, :focus) {
