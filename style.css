@@ -48,6 +48,17 @@
   --element-padding: 1rem;
 }
 
+.dark-mode {
+  --clr-light: hsl(0, 0%, 100%);
+  --clr-dark: hsl(233, 54%, 16%);
+  --clr-primary: hsl(341, 92%, 62%);
+  --clr-secondary: hsl(13, 100%, 64%);
+  --clr-accent: hsl(237, 100%, 64%);
+
+  --clr-foreground: var(--clr-light);
+  --clr-background: var(--clr-dark);
+}
+
 /*
   1. Use a more-intuitive box-sizing model.
 */
@@ -163,10 +174,9 @@ body {
   transition: transform 350ms ease-in-out, color 350ms ease-in-out;
 }
 
-/* .toggle-button {
-  font-size: var(--fs-300);
+.toggle-button {
   cursor: pointer;
-} */
+}
 
 .header-button {
   background-color: var(--clr-primary-800);
