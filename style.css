@@ -118,7 +118,7 @@ h2 {
 
 /* General */
 body {
-  background-color: var(--clr-light);
+  background-color: var(--clr-background);
   color: var(--clr-primary-500);
   font-family: var(--font-family-body);
   font-weight: var(--fw-medium);
@@ -172,14 +172,14 @@ body {
   border-radius: 2rem;
   text-decoration: none;
   font-size: var(--fs-300);
-  color: var(--clr-light);
+  color: var(--clr-foreground);
   font-weight: var(--fw-bold);
   transition: transform 350ms ease-in-out, color 350ms ease-in-out;
 }
 
 .toggle-button {
-  background-color: var(--clr-light);
-  color: var(--clr-dark);
+  background-color: var(--clr-background);
+  color: var(--clr-foreground);
   border: none;
   border-radius: 50%;
   padding: 0.2em 0.7em;
@@ -187,7 +187,8 @@ body {
 }
 
 .header-button {
-  background-color: var(--clr-dark);
+  background-color: var(--clr-foreground);
+  color: var(--clr-background);
 }
 
 .header-button:is(:hover, :focus) {
@@ -210,7 +211,7 @@ body {
     var(--clr-accent-2-100),
     var(--clr-accent-1-100)
   );
-  color: var(--clr-dark);
+  color: var(--clr-foreground);
   transform: scale(1.1);
 }
 
@@ -228,14 +229,14 @@ body {
 
 .headline-item {
   padding: var(--_item-padding);
-  color: var(--clr-light);
+  color: var(--clr-background);
   background-image: var(--gradient-primary);
   border-radius: 0.5rem;
 }
 
 .course-item {
   padding: var(--_item-padding);
-  background-color: var(--clr-light);
+  background-color: var(--clr-background);
   justify-items: start;
   border-radius: 0.5rem;
   box-shadow: 0 0 1rem 0.1rem rgba(0, 0, 0, 0.1);
@@ -243,7 +244,7 @@ body {
 }
 
 .course-title {
-  color: var(--clr-dark);
+  color: var(--clr-foreground);
   font-weight: var(--fw-black);
 }
 
@@ -254,7 +255,7 @@ body {
 }
 
 .course-button:is(:hover, :focus) {
-  color: var(--clr-dark);
+  color: var(--clr-foreground);
   transform: scale(1.1);
 }
 
@@ -262,14 +263,14 @@ body {
   position: absolute;
   background-image: var(--gradient-primary);
   font-size: var(--fs-400);
-  color: var(--clr-light);
+  color: var(--clr-background);
   padding: 0.8rem 0.95rem;
   border-radius: 50%;
   transform: translate(1rem, -1.5rem);
 }
 
 .footer {
-  background-color: var(--clr-dark);
+  background-color: var(--clr-foreground);
   margin-top: 4rem;
 }
 
@@ -282,12 +283,12 @@ body {
     var(--clr-accent-3-100),
     var(--clr-accent-1-100)
   );
-  color: var(--clr-dark);
+  color: var(--clr-foreground);
   transform: scale(1.1);
 }
 /* Utility classes */
 .heading-dark {
-  color: var(--clr-dark);
+  color: var(--clr-foreground);
   font-weight: var(--fw-black);
 }
 
