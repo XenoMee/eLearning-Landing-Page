@@ -8,6 +8,11 @@ function enableMoonIcon() {
   sunIcon.style.display = "none";
 }
 
+function enableSunIcon() {
+  sunIcon.style.display = "inline-block";
+  moonIcon.style.display = "none";
+}
+
 // darkModeToggleButton.addEventListener("click", function () {
 //     if(storagedDarkMode !== "enabled") {
 
