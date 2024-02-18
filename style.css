@@ -178,6 +178,8 @@ body {
 }
 
 .toggle-button {
+  background-color: var(--clr-light);
+  color: var(--clr-dark);
   cursor: pointer;
 }
 
