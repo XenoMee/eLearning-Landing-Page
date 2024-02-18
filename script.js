@@ -3,6 +3,11 @@ let storagedDarkMode = localStorage.getItem("darkmode");
 const moonIcon = darkModeToggleButton.children[0];
 const sunIcon = darkModeToggleButton.children[1];
 
+if (storagedDarkMode === "enabled") {
+  enableDarkMode();
+  enableSunIcon();
+} else enableMoonIcon();
+
 function enableMoonIcon() {
   moonIcon.style.display = "inline-block";
   sunIcon.style.display = "none";
@@ -23,8 +28,13 @@ function disableDarkMode() {
   localStorage.setItem("darkmode", null);
 }
 
-// darkModeToggleButton.addEventListener("click", function () {
-//   if (storagedDarkMode !== "enabled") {
-//     enableMoonIcon();
-//   }
-// });
+darkModeToggleButton.addEventListener("click", function () {
+  storagedDarkMode = localStorage.getItem("darkmode");
+  if (storagedDarkMode !== "enabled") {
+    enableDarkMode();
+    enableSunIcon();
+  } else {
+    disableDarkMode();
+    enableMoonIcon();
+  }
+});
