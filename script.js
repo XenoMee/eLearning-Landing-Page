@@ -2,6 +2,8 @@ const darkModeToggleButton = document.getElementById("toggle-button");
 let storagedDarkMode = localStorage.getItem("darkmode");
 const moonIcon = darkModeToggleButton.children[0];
 const sunIcon = darkModeToggleButton.children[1];
+const headerLogo = document.getElementById("header-logo-image");
+const footerLogo = document.getElementById("footer-logo-image");
 
 if (storagedDarkMode === "enabled") {
   enableDarkMode();
@@ -20,11 +22,15 @@ function enableSunIcon() {
 
 function enableDarkMode() {
   document.body.classList.add("dark-mode");
+  headerLogo.src = "./assets/logo-light.svg";
+  footerLogo.src = "./assets/logo-dark.svg";
   localStorage.setItem("darkmode", "enabled");
 }
 
 function disableDarkMode() {
   document.body.classList.remove("dark-mode");
+  headerLogo.src = "./assets/logo-dark.svg";
+  footerLogo.src = "./assets/logo-light.svg";
   localStorage.setItem("darkmode", null);
 }
 
