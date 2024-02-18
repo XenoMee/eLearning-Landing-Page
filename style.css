@@ -163,6 +163,11 @@ body {
   transition: transform 350ms ease-in-out, color 350ms ease-in-out;
 }
 
+/* .toggle-button {
+  font-size: var(--fs-300);
+  cursor: pointer;
+} */
+
 .header-button {
   background-color: var(--clr-primary-800);
 }
