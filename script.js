@@ -13,8 +13,13 @@ function enableSunIcon() {
   moonIcon.style.display = "none";
 }
 
-// darkModeToggleButton.addEventListener("click", function () {
-//     if(storagedDarkMode !== "enabled") {
+function enableDarkMode() {
+  document.body.classList.add("dark-mode");
+  localStorage.setItem("darkmode", "enabled");
+}
 
-//     }
+// darkModeToggleButton.addEventListener("click", function () {
+//   if (storagedDarkMode !== "enabled") {
+//     enableMoonIcon();
+//   }
 // });
